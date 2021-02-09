@@ -50,7 +50,7 @@ body {
 
 /* Pie de pagina */
 .footer{
-    height: 300px;
+    max-height: 250px;
 }
 
 .footer__container{
@@ -61,11 +61,25 @@ body {
 
 .footer__container-left{
     float: left;
-   
+    width: 40%;
+}
+
+.container__title{
+    font-size: 17px;
+}
+
+.container__img img{
+    height: 35px;
+    width: 35px;
 }
 
 .footer__container-rigth{
     float: right;
+    width: 40%;
+}
+
+.footer__container-article{
+    text-align: justify;
 }
 
 .footer__copy{
