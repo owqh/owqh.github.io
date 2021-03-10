@@ -50,7 +50,7 @@ body {
 
 /* Pie de pagina */
 .footer{
-    max-height: 250px;
+    height: 350px;
 }
 
 .footer__container{
