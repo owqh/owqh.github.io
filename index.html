@@ -1,52 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aca podras encontrar toda la informacion sobre los proyectos en los cuales el Ing. Oscar Quintanilla ha trabajado, puedes ponerte en contacto o visitar su blog">
+    <meta name="author" content="Oscar Quintanilla">
+
 
     <!-- Importando las fuentes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- Importando estilos -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- Reiniciando los estilos -->
+    <link rel="stylesheet" href="assets/css/normalize-dist.css">
+
+    <!-- Importando estilos locales -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
     <!-- Importando icono -->
-    <title>Oscar Quintanilla</title>
+    <title>Portafolio || Oscar Quintanilla</title>
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
         <div class="header__logo">
-            <b>Oscar Quintanilla</b>
+            Oscar Quintanilla
         </div>
         <div class="header__menu">
 
             <ul>
-                <b>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#sobre-mi">Sobre mi</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li><a href="#">Blog</a></li>
-                </b>
+                    <li><a href="#">Modo nocturno</a></li>
             </ul>
         </div>
     </header>
 
     <!-- Sobre mi -->
     <section class="about" id="sobre-mi">
-        <h2>Sobre mi</h2>
+        <img src="assets/img/default-picture.webp" alt="Foto Oscar Quintanilla" class="about-img">
+        <h1>Oscar Eduardo Quintanilla Hernández</h1>
+        <h2 class="title">Desarrollador Java - Desarrollador Web - Consultoria de software</h2>
+        <input type="button" value="Ver portafolio">
     </section>
 
     <!-- Proyectos -->
     <section class="projects" id="proyectos">
-        <h3>Proyectos</h3>
+        <div class="main-projects">
+            <span>PORTAFOLIO</span>
+            <h2>Proyectos recientes</h2>
+            <div class="galery">
+                <img src="assets/img/default-post.webp" alt="" class="galery__img">
+                <img src="assets/img/default-post.webp" alt="" class="galery__img">
+                <img src="assets/img/default-post.webp" alt="" class="galery__img">
+                <img src="assets/img/default-post.webp" alt="" class="galery__img">
+            </div>
+            <input type="button" value="Ver todos los proyectos...">
+        </div>
+        
     </section>
 
     <!-- Contacto -->
     <section class="contact" id="contacto">
-        <h3>Contacto</h3>
+        <div class="contact__container">
+            <h2 class="title">Contacto</h2>
+            <h3>¿Tienes algo en mente? No lo pienses mas, contáctame!!!</h3>
+
+            <div class="contact__form">
+                <form action="#">
+                    <p>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" placeholder="Nombre">
+                    </p>
+                    <p>
+                        <label for="mail">Correo:</label>
+                        <input type="email" name="mail" id="mail" placeholder="correo@gmail.com">
+                    </p>
+                    <p>
+                        <label for="tel">Teléfono:</label>
+                        <input type="tel" name="tel" id="tel" placeholder="0000-0000">
+                    </p>
+                    <p>
+                        <label for="mesage">Mensaje:</label>
+                        <textarea name="mesage" id="mesage" cols="30" rows="10" placeholder="Tu mensaje aca ..."></textarea>
+                    </p>
+                    
+                    <input type="reset" value="Limpiar campos">
+                    <button>Contactame!!!</button> 
+                </form>
+            </div>
+        </div>
+     
     </section>
 
     <footer class="footer">
@@ -79,8 +128,8 @@
             </div>
         </div>
         <div class="footer__copy">
-            <hr />
-            <p> Copyright &copy; 2021 - Todos los derechos reservados Ing. Oscar Quintanilla.</p>
+        
+            <p> Copyright &copy; Oscar Quintanilla - Todos los derechos reservados 2021</p>
         </div>
     </footer>
 </body>

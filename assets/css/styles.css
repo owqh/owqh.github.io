@@ -1,0 +1,113 @@
+:root{
+    --title: 'Roboto Slab', serif;
+    --paragraph: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* trabajando el header en 2 partes logo y menu */
+.header {
+  background-color: #003049;
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--paragraph);
+}
+
+.header__logo {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.header__menu {
+  margin-right: 30px;
+}
+
+.header__menu ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+.header__menu li {
+  display: inline;
+  margin: 10px 0px;
+}
+
+.header__menu li a {
+  color: white;
+  font-size: 18px;
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Sobre mi */
+.about {
+  background-color: lightcyan;
+  width: 100%;
+  height: 500px;
+  color: lightcoral;
+  text-align: center;
+  
+}
+
+/* Proyectos */
+.projects {
+  background-color: lightcoral;
+  width: 100%;
+
+  color: lightcyan;
+  text-align: center;
+}
+
+.main-projects{
+  height: 700px;
+}
+
+/* Contacto */
+.contact{
+    background-color: lightgreen;
+    color: lightseagreen;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Pie de pagina */
+.footer {
+  height: 100px;
+  background-color: #003049;
+}
+
+.footer__container {
+  /* margin: 15px 30px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__container-left {
+  float: left;
+}
+
+.footer__container-rigth {
+  float: right;
+}
+
+.footer__copy {
+  color: #979b9b;
+  font-size: 15px;
+  text-align: center;
+}
